@@ -28,5 +28,4 @@ public class TestConfig {
 		System.out.println("Building PropertySourcesPlaceholderConfigurer");
 		return new PropertySourcesPlaceholderConfigurer();
 	}
-	
 }
