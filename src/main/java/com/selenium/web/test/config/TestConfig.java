@@ -25,8 +25,7 @@ public class TestConfig {
 	
 	@Bean
 	public static PropertySourcesPlaceholderConfigurer getPropertySourcesPlaceholderConfigurer() {
-		System.out.println("Building PropertySourcesPlaceholderConfigurer");
+		log.info("Building PropertySourcesPlaceholderConfigurer");
 		return new PropertySourcesPlaceholderConfigurer();
 	}
-	
 }
