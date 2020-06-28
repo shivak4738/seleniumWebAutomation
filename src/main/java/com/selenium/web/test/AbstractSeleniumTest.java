@@ -30,6 +30,7 @@ abstract public class AbstractSeleniumTest extends AbstractTest {
 	 * @param condition The condition to wait for
 	 */
 	protected void waitUntil(ExpectedCondition<Object> condition) {
+		
 		new WebDriverWait(driver, waitSeconds).until(condition);
 	}
 
