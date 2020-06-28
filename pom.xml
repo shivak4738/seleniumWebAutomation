@@ -274,6 +274,11 @@
 		<slf4j.version>1.7.7</slf4j.version>
 		<selenium.version>3.141.59</selenium.version>
 		<amazonaws.version>1.11.572</amazonaws.version>
+		<maven-surefire-plugin.version>2.13</maven-surefire-plugin.version>
+		<versions-maven-plugin.version>2.1</versions-maven-plugin.version>
+		<maven-release-plugin.version>2.5</maven-release-plugin.version>
+		<maven-jar-plugin.version>2.6</maven-jar-plugin.version>
+		<git-commit-id-plugin.version>2.1.10</git-commit-id-plugin.version>
 
 		<!-- default properties -->
 		<env>default</env>
