@@ -465,7 +465,6 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/shivak4738/seleniumWebAutomation.git</developerConnection>
 	</scm>
-
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://192.168.0.95:8080/jenkins/job/SeleniumWebAutomation/build</url>
