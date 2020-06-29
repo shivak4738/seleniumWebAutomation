@@ -423,7 +423,7 @@
 		</dependency>
 	</dependencies>
 
-	<profiles>
+	<!-- <profiles>
 		<profile>
 			<id>jenkins</id>
 			<activation>
@@ -445,7 +445,7 @@
 			</properties>
 		</profile>
 		<profile>
-			<!-- Win32 Namespace Environment -->
+			Win32 Namespace Environment
 			<id>win32</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
@@ -461,14 +461,14 @@
 				<spring.profiles.active>dev</spring.profiles.active>
 			</properties>
 		</profile>
-	</profiles>
+	</profiles> -->
 	<scm>
 		<developerConnection>scm:git:https://github.com/shivak4738/seleniumWebAutomation.git</developerConnection>
 	</scm>
 
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>http://192.168.0.95:8080/jenkins/job/SeleniumWebAutomation/</url>
+		<url>http://192.168.0.95:8080/jenkins/job/SeleniumWebAutomation/build</url>
 	</ciManagement>
 	
 </project>
