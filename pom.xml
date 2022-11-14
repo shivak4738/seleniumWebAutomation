@@ -263,7 +263,7 @@
 		<maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
 		<maven.surefire.version>2.17</maven.surefire.version>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<spring.framework.version>4.1.7.RELEASE</spring.framework.version>
+		<spring.framework.version>4.2.7.RELEASE</spring.framework.version>
 		<testng.version>6.9.6</testng.version>
 		<groovy.version>2.4.5</groovy.version>
 		<postgres.jdbc.driver.version>9.4.1212</postgres.jdbc.driver.version>
